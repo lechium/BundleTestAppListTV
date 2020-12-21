@@ -1,0 +1,10 @@
+Package: com.nito.bundletest
+Name: BundleTest 
+Pre-Depends: cy+model.appletv
+Depends: firmware (>= 9.0), applist (>=1.3-2) 
+Version: 1.0
+Architecture: appletvos-arm64
+Description: App testing loading preference bundles 
+Maintainer: Kevin Bradley
+Author: Kevin Bradley
+Section: Utilities

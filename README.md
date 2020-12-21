@@ -44,12 +44,10 @@ The bulk of the code is handled in AppDelegate
         
         UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:ourVC];
             _rootViewController = [[_TSKSplitViewController alloc] initWithNavigationController:navController];
-        _rootViewController.title = @"Test App";
     } else {
             UIViewController *blank = [[UIViewController alloc] init];
-        UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:blank];
+            UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:blank];
             _rootViewController = [[_TSKSplitViewController alloc] initWithNavigationController:navController];
-            _rootViewController.title = @"Test App";
     }
     _window.rootViewController = _rootViewController;
     [_window makeKeyAndVisible];

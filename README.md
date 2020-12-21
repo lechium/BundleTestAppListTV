@@ -58,8 +58,7 @@ The bulk of the code is handled in AppDelegate
 few minor changes:
 
 ```Objective-C
-                            ...
-                            NSDictionary *spec = @{@"ALAllowsSelection": @"1",
+     NSDictionary *spec = @{@"ALAllowsSelection": @"1",
                             @"ALSettingsDefaultValue": @0,
                             @"ALSettingsPrefix": @"isEnabled",
                             @"ALSettingsPath": @"/var/mobile/Library/Preferences/com.sample.single.plist",
@@ -67,7 +66,6 @@ few minor changes:
                             @"ALAllProcessesMode": (id)kCFBooleanFalse,
                             @"isController": (id)kCFBooleanTrue,
                             @"label": @"List Applications"};
-                            ...
 ```
 
 would yield:

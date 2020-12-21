@@ -57,7 +57,7 @@ The bulk of the code is handled in AppDelegate
 
 few minor changes:
 
-```
+```Objective-C
                             ...
                             NSDictionary *spec = @{@"ALAllowsSelection": @"1",
                             @"ALSettingsDefaultValue": @0,

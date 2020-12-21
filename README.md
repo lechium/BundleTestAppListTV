@@ -54,3 +54,22 @@ The bulk of the code is handled in AppDelegate
     return YES;
 }
 ```
+
+few minor changes:
+
+```
+                            ...
+                            NSDictionary *spec = @{@"ALAllowsSelection": @"1",
+                            @"ALSettingsDefaultValue": @0,
+                            @"ALSettingsPrefix": @"isEnabled",
+                            @"ALSettingsPath": @"/var/mobile/Library/Preferences/com.sample.single.plist",
+                            @"ALSingleEnabledMode": (id)kCFBooleanTrue, 
+                            @"ALAllProcessesMode": (id)kCFBooleanFalse,
+                            @"isController": (id)kCFBooleanTrue,
+                            @"label": @"List Applications"};
+                            ...
+```
+
+would yield:
+
+![Single Selection](screen_three.png)

@@ -27,10 +27,10 @@
         UIViewController *ourVC = [bundle.principalClass new];
         NSDictionary *spec = @{@"ALAllowsSelection": @"1",
                                @"ALSettingsDefaultValue": @0,
-                               @"ALSettingsKeyPrefix": @"SPL",
-                               @"ALSettingsPath": @"/var/mobile/Library/Preferences/com.sample.allproc.plist",
-                               @"ALSingleEnabledMode": (id)kCFBooleanFalse,
-                               @"ALAllProcessesMode": (id)kCFBooleanTrue,
+                               @"ALSettingsPrefix": @"isEnabled",
+                               @"ALSettingsPath": @"/var/mobile/Library/Preferences/com.sample.singles.plist",
+                               @"ALSingleEnabledMode": (id)kCFBooleanTrue,
+                               @"ALAllProcessesMode": (id)kCFBooleanFalse,
                                @"isController": (id)kCFBooleanTrue,
                                @"label": @"List Applications"};
                             
